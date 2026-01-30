@@ -32,12 +32,12 @@ h1 {
     
     /* New Styles */
     width: fit-content;
-    padding: 20px 40px;
+    padding: 25px 40px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     
     /* Animation */
     animation: slideDown 1s ease-out forwards;
@@ -61,6 +61,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-top: 30px;
 }
 
 /* ستايل اللينكات */
@@ -185,3 +186,4 @@ footer a:hover {
         font-size: 20px;
     }
 }
+
